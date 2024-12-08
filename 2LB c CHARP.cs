@@ -1,7 +1,4 @@
-﻿//2 Лб//
-//2 вариант//
-
-using System;
+﻿using System;
 
 namespace C_charp_LB2
 {

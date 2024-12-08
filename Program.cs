@@ -1,19 +1,17 @@
 ﻿//3ЛБ//
 //ВАРИАНТ 3//
 
-using System;
-
 namespace _3LB_Ccharp
 {
-	class Program
-	{
-		static void Main(string[] args)
-		{
+    class Program
+    {
+        static void Main(string[] args)
+        {
 			double y;
 			double x;
 			double c = 7;
 
-
+			
 			for (x = 0; x <= 1; x += 0.1)
 			{
 				y = Math.Pow(2, -x) * Math.Pow(c, x);
@@ -31,7 +29,7 @@ namespace _3LB_Ccharp
 				x += 0.1;
 				Console.WriteLine(y);
 			}
-
+			
 
 			x = 0.1;
 
@@ -45,5 +43,5 @@ namespace _3LB_Ccharp
 
 		}
 	}
-
+    
 }
